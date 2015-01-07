@@ -4,8 +4,12 @@ python:
   - "2.7"
   - "3.2"
   - "3.3"
+install:
+  - pip install coveralls
 # command to install dependencies
 script: python tests/test_simple.py
+after_success:
+  coveralls
 branches:
   only:
     - master
