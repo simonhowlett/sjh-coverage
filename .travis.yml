@@ -7,7 +7,7 @@ python:
 install:
   - pip install coveralls
 # command to install dependencies
-script: python tests/test_simple.py
+script: coverage run tests/test_simple.py
 after_success:
   coveralls
 branches:
