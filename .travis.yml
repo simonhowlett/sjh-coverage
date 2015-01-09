@@ -6,7 +6,6 @@ python:
 install:
   - pip install codecov
 
-
 script:
   - coverage run tests/test_simple.py
 
