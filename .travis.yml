@@ -11,4 +11,4 @@ install:
 script: coverage run tests/test_simple.py
 
 after_success:
-  codecov --min-coverage=75
+  codecov 
