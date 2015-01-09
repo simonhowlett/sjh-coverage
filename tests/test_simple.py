@@ -11,6 +11,9 @@ class IsOddTests(unittest.TestCase):
     def testtwo(self):
         self.failIf(IsOdd(2))
 
+    def testthree(self):
+        self.failIf(IsOdd(4))
+
 def main():
     unittest.main()
 
