@@ -1,6 +1,11 @@
 sjh-js-1
 ========
 
+[![codecov.io]
+(https://codecov.io/github/simonhowlett/sjh-py-1/coverage.svg?branch=master)]
+(https://codecov.io/github/simonhowlett/sjh-py-1?branch=master)
+
+
 Just some testing, getting coveralls working a little..
 Trying to get some CI going..
 
