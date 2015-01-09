@@ -3,6 +3,9 @@ import unittest
 def IsOdd(n):
     return n % 2 == 1
 
+def IsEven(x):
+    return x % 2 == 0
+
 class IsOddTests(unittest.TestCase):
 
     def testOne(self):
@@ -10,9 +13,6 @@ class IsOddTests(unittest.TestCase):
 
     def testtwo(self):
         self.failIf(IsOdd(2))
-
-    def testthree(self):
-        self.failIf(IsOdd(4))
 
 def main():
     unittest.main()
