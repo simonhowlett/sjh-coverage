@@ -20,7 +20,7 @@ class IsEvenTests(unittest.TestCase):
         self.failUnless(IsEven(2))
 
     def testfour(self):
-        self.failUnless(IsEven(1))
+        self.failIf(IsEven(1))
 
 def main():
     unittest.main()
