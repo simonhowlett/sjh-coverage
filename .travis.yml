@@ -1,13 +1,18 @@
 language: python
+
 python:
-  - "2.7"
+  - 2.7
+
 install:
   - pip install codecov
-# command to install dependencies
+
+
 script:
   - coverage run tests/test_simple.py
+
 after_success:
   - codecov
+  
 branches:
   only:
   - master
