@@ -9,7 +9,6 @@ before_install:
 install:
 
 script:
-
   - coverage run tests/test_simple.py
 
 after_success:
