@@ -22,9 +22,12 @@ class IsEvenTests(unittest.TestCase):
     def testfour(self):
         self.failIf(IsEven(1))
 
+'''
 def main():
     unittest.main()
 
 if __name__ == '__main__':
     main()
+
+    '''
 
