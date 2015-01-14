@@ -7,6 +7,6 @@ before_install:
   pip install codecov
 install:
 
-script: coverage run tests/test_simple.py
+script: nosetests --with-coverage
 after_success:
   codecov
