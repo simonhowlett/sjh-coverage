@@ -1,11 +1,4 @@
-sjh-js-1
-========
-
-[![Build Status](https://travis-ci.org/simonhowlett/sjh-py-1.svg?branch=master)]
-(https://travis-ci.org/simonhowlett/sjh-py-1)
-[![codecov.io]
-(https://codecov.io/github/simonhowlett/sjh-py-1/coverage.svg?branch=master)]
-(https://codecov.io/github/simonhowlett/sjh-py-1?branch=master)
+# Travis CI: [![Build Status](https://travis-ci.org/simonhowlett/sjh-py-1.svg?branch=master)](https://travis-ci.org/simonhowlett/sjh-py-1) | Codecov coverage [![codecov.io](https://codecov.io/github/simonhowlett/sjh-py-1/coverage.svg?branch=master)](https://codecov.io/github/simonhowlett/sjh-py-1?branch=master)
 
 ![codecov.io]
 (https://codecov.io/github/simonhowlett/sjh-py-1/branch.svg?branch=master)
